@@ -1,0 +1,178 @@
+@media screen and (max-width : 550px) {
+/* If screen size less than 480px Load these styles */
+/* Done for Smart Phones */
+/* estilo de cajas */
+.entrada{
+  width: 500px;
+      color: #353535;
+    background: rgba(0,0,0,.1);
+    padding: 10px;
+    border: solid 2px black;
+}
+.cuerpoEntrada img{
+  width: 80%;
+}
+p {color:#289728;}
+#contenedor{
+   
+}
+
+.descripciontxt{
+  padding: 1em;
+    -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -o-box-sizing:border-box;
+}
+.extrainfo{
+
+  display: inline-block;
+}
+header .descripciontxt{
+  padding: 0em;
+}
+#fotoheader{
+  max-width: 54%;
+}
+#grupo{
+  display: inline-block;
+}
+#galeriafotos{
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+
+ img.mini{width: 50px; height: 50px;}
+ img.mediana{width: 100px; height: 100px;}
+ img.grande{width: 300px; display: inline-block;vertical-align: top;}
+
+ .img_extra1{width: 400px;  display: inline-block;vertical-align: top; }
+ .img_extra2{width: 150px;  display: inline-block;vertical-align: top;}
+
+.imgpersonal{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+      -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -o-box-sizing:border-box;
+}
+
+.tituloheader img, .tituloheader h1, .tituloheader p{
+
+  display: inline-block;
+  
+}
+
+
+
+nav{
+margin: 0 auto;
+  opacity: .8;
+
+}
+#menu ul{
+  list-style: none;
+}
+#menu ul li{
+  display: inline-block;
+  padding: .3em;
+  }
+
+
+
+  
+.uno, .dos, .tres{
+  display: inline-block;
+  width: 100%;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -o-box-sizing:border-box;
+
+}
+.uno{
+
+}
+.uno header, .dos header, .tres header {
+  width: 100%;
+  display: inline-block;
+}
+
+
+.visitar{
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -o-box-sizing:border-box;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .uno header, .dos header, .tres header {
+    width: 100%;
+    display:inline-block;
+    padding: 5px;
+  }
+  #contenedorweb{
+    max-width:600px
+  }
+}
+#primera{
+
+  -webkit-perspective: 800px; /* Chrome, Safari, Opera */
+perspective: 800px;
+}
+#primera > header > p{
+
+  color: #FF6262;
+}
+
+@media (max-width: 800px) {
+  .uno header, .dos header, .tres header {
+    width: 100%;
+    display:inline-block;
+    padding: 5px;
+  }
+  #contenedorweb{
+    max-width:800px
+  }
+  .uno article, .dos article, .tres article {
+    width: 97%;
+    position: relative;
+    padding: 14px;
+  }
+
+  .descripcionitem{width: 100%;}
+  .galeriaitem{width: 100%;}
+}
+
+
+
+@media screen and (max-device-width : 480px) {
+
+  .descripcionitem{width: 45%;}
+  .galeriaitem{width: 50%;}
+    #contenedorweb{
+    margin:0 auto;
+    max-width:480px
+  }
+}
+}
+@media screen and (max-width : 768px) {
+/* If screen size less than 768px Load these styles */
+/* Done for Tablets */
+}
+
+
+
+
